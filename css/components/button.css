@@ -1,0 +1,45 @@
+.dl-button {
+  padding: 12px 24px;
+  border: solid #504DFF 2px;
+  border-radius: 6px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.055em;
+  color: #181818;
+  transition: 0.2s ease-in-out; }
+
+.dl-button:hover {
+  color: white;
+  background-color: #504DFF; }
+
+.primary-button {
+  background: #504DFF;
+  border-radius: 6px;
+  padding: 15px 30px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.055em;
+  color: #ffffff;
+  display: inline-block;
+  transition: 0.2s ease-in-out; }
+
+.primary-button:hover {
+  background-color: #6f6df8; }
+
+.secondary-button {
+  padding: 13px 28px;
+  border: solid #504DFF 2px;
+  border-radius: 6px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.055em;
+  color: #181818;
+  display: inline-block;
+  transition: 0.2s ease-in-out; }
+
+.secondary-button:hover {
+  color: white;
+  background-color: #504DFF; }

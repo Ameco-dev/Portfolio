@@ -1,0 +1,41 @@
+.site-header {
+  position: relative; }
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.wrapperz {
+  max-width: 1400px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto; }
+
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
+
+a {
+  text-decoration: none;
+  color: #222; }
+
+.nav__wrapper {
+  display: flex; }
+
+ul {
+  list-style: none; }
+
+.logo {
+  width: 80px; }
+
+.nav__item {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.055em;
+  color: #181818;
+  margin: 30px; }
