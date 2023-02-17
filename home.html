@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <title>Amecofolio</title>
 </head>
 <body>
@@ -17,7 +18,6 @@
         <div class="site-header__middle">
           <nav class="nav">
             <ul class="nav__wrapper">
-              <li class="nav__item"><a href="#">A propos</a></li>
               <li class="nav__item"><a href="#">Competences</a></li>
               <li class="nav__item"><a href="#">Portfolio</a></li>
             </ul>
@@ -43,6 +43,102 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="skills-section">
+    <div class="container">
+      <div class="wrapper">
+        <div class="circle-title">Competences</div>
+        <div class="left-side">
+          <h2>Pourquoi moi pour <br> vos projets ?</h2>
+          <p>Ma passion est de donner vie a vos projets en utilisant mes outils <br> preferes ! J’aime mettre en place des design qui vous ressemble <br> pour que vous puissiez creer votre identite.</p>
+            <a class="primary-button" href="">Me contacter</a>
+        </div>
+        <div class="right-side">
+          <div class="first-column">
+            <div class="skill-item">
+              <img class="icon" src="/assets/img/proto.png" alt="">
+              <h3>Prototypage</h3>
+              <p>Creation du design de <br> votre produit</p>
+            </div>
+            <div class="skill-item">
+              <img class="icon" src="/assets/img/search.png" alt="">
+              <h3>Analyse</h3>
+              <p>Analyse des comportements <br> de vos utilisateurs</p>
+            </div>
+          </div>
+          <div class="second-column">
+            <div class="skill-item">
+              <img class="icon" src="/assets/img/code.png" alt="">
+              <h3>Developpement</h3>
+              <p>Transformez vos idees en <br> produits concrets</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="caroussel">
+      <img id="img1" src="assets/img/rails.png" alt="">
+
+      <img id="img2" src="assets/img/js.png" alt="">
+
+      <img id="img3" src="assets/img/html.png" alt="">
+
+      <img id="img4" src="assets/img/css.png" alt="">
+
+      <img id="img5" src="assets/img/figma.svg" alt="">
+    </div>
+  </div>
+  <div class="portfolio-section">
+    <div class="container">
+      <div class="circle-title">Portfolio</div>
+      <h2>Retrouvez mes travaux et <br> mes derniers projets</h2>
+      <p>Je vous ai selectionne ici quelques projets que je trouvais <br> interessant de vous partager afin que vous puissiez avoir une idee <br> du travail realise !</p>
+    </div>
+
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="https://www.dionysos.click/" target="_blank">
+            <img src="assets/img/dionysos.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://github.com/Ameco-dev/Cryptter" target="_blank">
+            <img src="assets/img/cryptter.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://github.com/JulNkd/rocket-market" target="_blank">
+            <img src="assets/img/rocket-market.png" />
+          </a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
   </div>
 </body>
 </html>

@@ -1,0 +1,37 @@
+.portfolio-section {
+  margin-bottom: 1000px; }
+  .portfolio-section .container {
+    text-align: center; }
+  .portfolio-section .circle-title {
+    margin: auto; }
+  .portfolio-section h2 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+.triangle {
+  border-top: 600px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 1630px solid #504DFF;
+  z-index: -1; }
+
+.swiper {
+  width: 1400px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .swiper img {
+    height: 600px;
+    object-fit: cover;
+    object-position: top; }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%; }
+
+.swiper-pagination-bullet-active {
+  background: #504DFF !important; }

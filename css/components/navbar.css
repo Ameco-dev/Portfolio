@@ -21,7 +21,8 @@
 
 a {
   text-decoration: none;
-  color: #222; }
+  color: #222;
+  transition: 0.2s ease-in-out; }
 
 .nav__wrapper {
   display: flex; }
@@ -39,3 +40,6 @@ ul {
   letter-spacing: -0.055em;
   color: #181818;
   margin: 30px; }
+
+li a:hover {
+  text-decoration: underline; }
