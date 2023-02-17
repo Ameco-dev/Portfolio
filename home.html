@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <title>Amecofolio</title>
 </head>
 <body>
@@ -116,10 +118,6 @@
       </div>
       <div class="swiper-pagination"></div>
     </div>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -139,6 +137,50 @@
         },
       });
     </script>
+  </div>
+  <div class="contact-section">
+    <div class="container">
+      <div class="circle-title">Contact</div>
+      <h2>Parlons de vos projets</h2>
+      <p>Mettons au monde vos projets !</p>
+      <div class="contact-card">
+        <form>
+          <div class="step-1">
+            <div>
+              <h4>Votre nom</h4>
+              <input class="little-input" type="text" id="name" placeholder="Edward Snowden" required>
+            </div>
+            <div>
+              <h4>Votre email</h4>
+              <input class="little-input" type="email" id="email" placeholder="exemple@gmail.com" required>
+            </div>
+          </div>
+            <div class="step-2">
+              <div class="interest">
+                <h4>Qu'est-ce qui vous interesse ?</h4>
+                <select class="selector" name="interest" id="interest">
+                  <option value="developpement">Developpement</option>
+                  <option value="analyse">Analyse</option>
+                  <option value="prototypage">Prototypage</option>
+                </select>
+              </div>
+              <div class="budget">
+                <h4>Budget pour votre projet</h4>
+                <select class="selector" name="budget" id="budget">
+                  <option value="">Selectionner votre budget</option>
+                  <option value="0-2000">Entre 0 et 2000</option>
+                  <option value="2000-5000">Entre 2000 et 5000</option>
+                  <option value="5000-10000">Entre 5000 et 10000</option>
+                  <option value="10000+">10000 et plus</option>
+                </select>
+              </div>
+            </div>
+            <h4>Message</h4>
+            <input type="text" id="message" placeholder="Dites m'en plus a propos de votre projet...">
+            <input type="submit" value="Envoyer" class="primary-button">
+        </form>
+      </div>
+    </div>
   </div>
 </body>
 </html>

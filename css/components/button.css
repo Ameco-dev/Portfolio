@@ -23,7 +23,8 @@
   letter-spacing: -0.055em;
   color: #ffffff;
   display: inline-block;
-  transition: 0.2s ease-in-out; }
+  transition: 0.2s ease-in-out;
+  border: none; }
 
 .primary-button:hover {
   background-color: #6f6df8; }
