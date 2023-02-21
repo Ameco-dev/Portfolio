@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Merci!</title>
+</head>
+<body>
+  <div class="merci-section">
+    <h1>Merci !</h1>
+    <i class="fa fa-check main-content__checkmark" id="checkmark"></i>
+    <p>De m'avoir contacté, je reviens vers vous dans les plus brefs délais !</p>
+    <a class="primary-button" href="home.html">Retourner a la homepage</a>
+    <script src="/js/confetti.js"></script>
+    <script>
+       // for starting the confetti
+
+       const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  for stopping the confetti
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+// after this here we are calling both the function so it works
+        start();
+        stop();
+    </script>
+  </div>
+</body>
+</html>

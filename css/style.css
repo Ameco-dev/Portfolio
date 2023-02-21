@@ -5,4 +5,7 @@
 @import 'components/skills-section.css';
 @import 'components/portfolio-section.css';
 @import 'components/contact-section.css';
+@import 'components/footer.css';
+@import 'components/loader.css';
+@import 'components/thankyou.css';
 @import 'fonts.css';

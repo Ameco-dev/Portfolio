@@ -1,0 +1,11 @@
+.merci-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 910px; }
+
+#checkmark {
+  color: #24b663;
+  font-size: 9.75rem; }

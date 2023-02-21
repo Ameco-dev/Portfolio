@@ -4,6 +4,10 @@ body{
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   margin: auto;
   width: 1400px;

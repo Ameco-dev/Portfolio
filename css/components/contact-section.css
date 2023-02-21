@@ -1,5 +1,5 @@
 .contact-section {
-  margin-bottom: 1000px; }
+  margin-bottom: 100px; }
   .contact-section .container {
     text-align: center; }
   .contact-section .circle-title {
@@ -9,7 +9,7 @@
     margin-bottom: 20px; }
 
 .contact-card {
-  height: 500px;
+  height: 600px;
   margin: auto;
   width: 1000px;
   border-radius: 8px;
@@ -30,9 +30,34 @@
   .step-2 h4 {
     margin-top: 60px; }
 
+.step-3 {
+  width: 850px;
+  margin-left: 60px;
+  text-align: start; }
+  .step-3 h4 {
+    margin-top: 60px; }
+  .step-3 .primary-button {
+    margin-top: 10px; }
+    .step-3 .primary-button i {
+      margin-left: 15px; }
+
 .little-input {
   padding: 15px;
   width: 350px;
+  border: none;
+  border-radius: 8px;
+  background-color: #F6F6F6;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: -0.055em; }
+
+.big-input {
+  padding: 15px;
+  width: 100%;
+  padding-bottom: 100px;
   border: none;
   border-radius: 8px;
   background-color: #F6F6F6;
@@ -55,4 +80,4 @@
   font-size: 16px;
   line-height: 15px;
   letter-spacing: -0.055em;
-  color: rgba(24, 24, 24, 0.5); }
+  color: rgba(24, 24, 24, 0.706); }
