@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "node": "^19.6.0"
+
+  },
+  "scripts": {
+    "start": "node index.js"
   }
+
 }
