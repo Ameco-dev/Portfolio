@@ -13,6 +13,9 @@
   "name": "portfolio",
   "description": "My professional dev portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
