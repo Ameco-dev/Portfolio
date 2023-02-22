@@ -2,7 +2,14 @@
   "dependencies": {
     "buildpack": "^0.0.1",
     "node-sass": "^8.0.0",
+    "serve": "^14.2.0",
     "swiper": "^9.0.5"
+  },
+  "name": "amecofolio",
+  "description": "a really cool portfolio",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.15.1"
   },
   "scripts": {
     "start": "node index.js"
