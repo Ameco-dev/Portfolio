@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "buildpack": "^0.0.1",
+    "node-sass": "^8.0.0",
+    "swiper": "^9.0.5"
+  }
+}
