@@ -1,117 +1,118 @@
 @media (max-width: 576px) {
   body {
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0 !important;
+    box-sizing: border-box !important;
   }
   /* NAVBAR */
   .nav__item {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .logo {
-    width: 60px;
+    width: 60px !important;
   }
 
   .dl-button {
-    padding: 6px 18px;
-    font-size: 13px;
+    padding: 6px 18px !important;
+    font-size: 13px !important;
   }
 
   /* HERO BANNER */
   .cta-banner {
-    text-align: center;
+    text-align: center !important;
   }
 
   .hero-banner {
-    height: 550px;
+    height: 550px !important;
   }
 
   .hero-banner .right-side {
-    display: none;
+    display: none !important;
   }
   .hero-banner .left-side {
-    margin: auto;
+    margin: auto !important;
   }
 
   /* SKILLS */
   .skills-section .right-side{
-    margin: auto;
+    margin: auto !important;
   }
 
   .skills-section .circle-title {
-    margin: auto;
+    margin: auto !important;
   }
   .skills-section h2 {
-    font-size: 26px;
-    line-height: normal;
+    font-size: 26px !important;
+    line-height: normal !important;
   }
 
   .skills-section p {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .skills-section .left-side {
-    display: none;
+    display: none !important;
   }
 
   .second-column {
-    margin-left: 40px;
+    margin-left: 40px !important;
   }
   .skills-section .primary-button {
-    font-size: 13px;
-    padding: 6px 16px;
-    margin-right: 0;
+    font-size: 13px !important;
+    padding: 6px 16px !important;
+    margin-right: 0 !important;
   }
 
   .caroussel #img1 {
-    width: 90px;
+    width: 90px !important;
   }
   .caroussel #img2 {
-    width: 60px;
+    width: 60px !important;
   }
   .caroussel #img3 {
-    width: 70px;
+    width: 70px !important;
   }
   .caroussel #img4 {
-    width: 50px;
+    width: 50px !important;
   }
   .caroussel #img5 {
-    width: 40px;
+    width: 40px !important;
   }
 
     /* CONTACT */
   .contact-card {
-    width: 500px;
+    width: 500px !important;
   }
 
   .little-input {
-    padding: 10px;
-    width: 200px;
+    padding: 10px !important;
+    width: 200px !important;
   }
   .selector {
-    padding: 10px;
+    padding: 10px !important;
+    width: 220px !important;
   }
 
   h4 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .step-3 {
-    text-align: center;
-    margin: auto;
+    text-align: center !important;
+    margin: auto !important;
   }
 
   .step-3 .big-input {
-    width: 90%;
+    width: 90% !important;
   }
 
   /* FOOTER */
   footer p {
-    display: none;
+    display: none !important;
   }
   footer .links {
-    justify-content: space-between;
-    width: 280px;
+    justify-content: space-between !important;
+    width: 280px !important;
   }
 }
 

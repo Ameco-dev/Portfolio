@@ -43,7 +43,7 @@
 
 .little-input {
   padding: 15px;
-  max-width: 350px;
+  width: 350px;
   border: none;
   border-radius: 8px;
   background-color: #F6F6F6;
@@ -70,7 +70,7 @@
 
 .selector {
   padding: 15px;
-  max-width: 380px;
+  width: 380px;
   border: none;
   border-radius: 8px;
   background-color: #F6F6F6;
