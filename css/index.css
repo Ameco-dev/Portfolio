@@ -7,7 +7,7 @@ html {
 
 .container {
   margin: auto;
-  width: 1400px; }
+  max-width: 1400px; }
 
 h1 {
   font-family: 'Poppins', sans-serif;

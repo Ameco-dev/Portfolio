@@ -15,7 +15,7 @@
   z-index: -1; }
 
 .swiper {
-  width: 1400px;
+  max-width: 1400px;
   padding-top: 50px;
   padding-bottom: 50px; }
   .swiper img {

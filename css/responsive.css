@@ -1,0 +1,136 @@
+@media (max-width: 576px) {
+  body {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* NAVBAR */
+  .nav__item {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .dl-button {
+    padding: 6px 18px;
+    font-size: 13px;
+  }
+
+  /* HERO BANNER */
+  .cta-banner {
+    text-align: center;
+  }
+
+  .hero-banner {
+    height: 550px;
+  }
+
+  .hero-banner .right-side {
+    display: none;
+  }
+  .hero-banner .left-side {
+    margin: auto;
+  }
+
+  /* SKILLS */
+  .skills-section .right-side{
+    margin: auto;
+  }
+
+  .skills-section .circle-title {
+    margin: auto;
+  }
+  .skills-section h2 {
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .skills-section p {
+    font-size: 16px;
+  }
+
+  .skills-section .left-side {
+    display: none;
+  }
+
+  .second-column {
+    margin-left: 40px;
+  }
+  .skills-section .primary-button {
+    font-size: 13px;
+    padding: 6px 16px;
+    margin-right: 0;
+  }
+
+  .caroussel #img1 {
+    width: 90px;
+  }
+  .caroussel #img2 {
+    width: 60px;
+  }
+  .caroussel #img3 {
+    width: 70px;
+  }
+  .caroussel #img4 {
+    width: 50px;
+  }
+  .caroussel #img5 {
+    width: 40px;
+  }
+
+    /* CONTACT */
+  .contact-card {
+    width: 500px;
+  }
+
+  .little-input {
+    padding: 10px;
+    width: 200px;
+  }
+  .selector {
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .step-3 {
+    text-align: center;
+    margin: auto;
+  }
+
+  .step-3 .big-input {
+    width: 90%;
+  }
+
+  /* FOOTER */
+  footer p {
+    display: none;
+  }
+  footer .links {
+    justify-content: space-between;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1400px) {
+
+}
