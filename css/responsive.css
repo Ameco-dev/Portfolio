@@ -21,6 +21,7 @@ and (max-width: 480px) {
   .dl-button {
     padding: 6px 18px !important;
     font-size: 13px !important;
+    display: none;
   }
 
   /* HERO BANNER */
