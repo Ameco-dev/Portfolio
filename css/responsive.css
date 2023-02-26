@@ -55,6 +55,13 @@ and (max-width: 480px) {
     margin: auto !important;
   }
 
+  .hero-banner .secondary-button {
+    display: none;
+  }
+
+  .hero-banner .primary-button {
+    margin-top: 60px;
+  }
   /* SKILLS */
   .skills-section .right-side{
     margin: auto !important;
