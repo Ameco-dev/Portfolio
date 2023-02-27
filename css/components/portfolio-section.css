@@ -39,3 +39,7 @@
 
 .swiper-pagination-bullet-active {
   background: #504DFF !important; }
+
+  .grab {
+    cursor: grab;
+  }
